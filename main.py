@@ -1,6 +1,11 @@
 import os
 
-TEXT = "The best meal I ever had was my father's midnight instant noodles, one egg cracked into the broth, eaten in silence the night the hospital called with good news."
+_PARTS = (
+    "The best meal I ever had was my father's midnight instant noodles,",
+    "one egg cracked into the broth,",
+    "eaten in silence the night the hospital called with good news.",
+)
+TEXT = " ".join(_PARTS)
 
 
 def main():
